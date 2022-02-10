@@ -15,7 +15,9 @@ const elements=<h1>hi im prashant chavan </h1>
 const navbar=(
     <div>
         {elements}
+        <h2>we are use jsx in many forms</h2>
     <ul>
+    
     <li>home</li>
     <li>about</li>
     <li>contact </li>

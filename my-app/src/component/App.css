@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.nav--logo_text, .nav--title {
+  margin: 0;
+}
+
+.nav--logo_text {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav--title {
+  color: #DEEBF8;
+  font-weight: 600;
+}
+
+.nav--icon {
+  height: 30px;
+  margin-right: 7px;
+}
+
+.logo--nav{
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 333px;
+  font-size: 22px;
+}
+
+
+.main{
+ /* background-image: url('https://www.figma.com/file/DztacV0YoHwJld3G8fcHMq/ReactFacts-(Copy)?node-id=0%3A7'); */
+  padding: 100px;
+  background-color: #282D35;
+  color: #fff;
+  text-transform: capitalize;
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* /* height: 1 */
+  background-image: url(./logo.svg);
+  background-size: 400px ;
+  background-position: 70% 50%;
+
+
+  
+  
+  /* background-image: 
+  url(
+  "https://media.geeksforgeeks.org/wp-content/uploads/rk.png");
+  background-size: "cover"; */
+  margin-top: -70px;
+  /* font-size:50px; */
+  background-repeat:no-repeat; 
+
+}
+
+.main--h1{
+  font-size: 39.06;
+
+}
+
+.main--ul{
+  line-height: 2em;
+  font-size: 16px;
+}
