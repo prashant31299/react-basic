@@ -1,12 +1,12 @@
 import React from "react"
-import logo from './logo.svg'
 import './App.css'
 
-function Main() {
+function Main(props) {
     return (
-        <div className="main"ndImag >
+        <div             
+        className={props.darkMode ? "dark": ""}
+        >
             <h1 className="main--h1">Fun facts about React</h1>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
              <ul className="main--ul">
              <li> Was first released in 2013</li>
              <li> Was originally created by Jordan Walke</li>
